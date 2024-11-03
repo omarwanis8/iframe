@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizable Iframe Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Customizable Iframe Dashboard</h1>
+        <button onclick="resetLayout()">Reset Layout</button>
+    </header>
+    <div class="iframe-container">
+        <div class="iframe-wrapper" draggable="true">
+            <iframe src="https://example.com" class="custom-iframe"></iframe>
+            <input type="text" placeholder="Enter URL" onchange="loadIframe(this)">
+        </div>
+        <!-- Additional iframes can be added similarly -->
+        <div class="iframe-wrapper" draggable="true">
+            <iframe src="https://example.com" class="custom-iframe"></iframe>
+            <input type="text" placeholder="Enter URL" onchange="loadIframe(this)">
+        </div>
+        <div class="iframe-wrapper" draggable="true">
+            <iframe src="https://example.com" class="custom-iframe"></iframe>
+            <input type="text" placeholder="Enter URL" onchange="loadIframe(this)">
+        </div>
+        <div class="iframe-wrapper" draggable="true">
+            <iframe src="https://example.com" class="custom-iframe"></iframe>
+            <input type="text" placeholder="Enter URL" onchange="loadIframe(this)">
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
